@@ -63,32 +63,32 @@ void GamepadAPI::buttons(uint32_t b){
 }
 
 
-void GamepadAPI::xAxis(int16_t a){ 
+void GamepadAPI::xAxis(uint16_t a){
 	_report.xAxis = a; 
 }
 
 
-void GamepadAPI::yAxis(int16_t a){ 
+void GamepadAPI::yAxis(uint16_t a){
 	_report.yAxis = a; 
 }
 
 
-void GamepadAPI::zAxis(int8_t a){ 
+void GamepadAPI::zAxis(uint16_t a){
 	_report.zAxis = a; 
 }
 
 
-void GamepadAPI::rxAxis(int16_t a){ 
+void GamepadAPI::rxAxis(uint16_t a){
 	_report.rxAxis = a; 
 }
 
 
-void GamepadAPI::ryAxis(int16_t a){ 
+void GamepadAPI::ryAxis(uint16_t a){
 	_report.ryAxis = a; 
 }
 
 
-void GamepadAPI::rzAxis(int8_t a){ 
+void GamepadAPI::rzAxis(uint16_t a){
 	_report.rzAxis = a; 
 }
 
